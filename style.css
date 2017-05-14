@@ -2,17 +2,29 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+#background{
+    background-image: url("urban-landscape-small.jpg");
+    background-repeat: no-repeat; 
+    background-position: right center;
+    height: 200px;
+    background-size: cover;
+}
+
 body {
-margin: 0;
+    margin: 0;
 }
 
 #photo {
-    position: fixed;
+    position: sticky;
+    -webkit-position: sticky;
     border: 2px solid #bbbaba;
     padding: 5px;
     margin-left: 20px;
     border-radius: 50%;
-
+    top: 20px;
+    display: inline-block;
+    margin-top: 20px;
 }
 
 #image {
@@ -21,13 +33,14 @@ margin: 0;
 }
 
 #links {
-position: fixed;
-    top: 274px;
+    position: sticky;
+    -webkit-position: sticky;
+    top: 474px;
     padding: 15px;
     width: 200px;
     left: 20px;
     font-size: 14px;
-
+    top: 260px;
 }
 
 .link { 
@@ -35,63 +48,24 @@ position: fixed;
 }
 
 a {
-  color: rgba(67, 64, 64, 0.9);
+    color: rgba(67, 64, 64, 0.9);
 }
 
 #page {
     margin-left: 280px;
-    margin-top: 20px;
+    margin-top: -320px;
     max-width: 500px;
     text-align: justify;
-        padding-right: 20px;
-    
-    
-        }
+    padding-right: 20px;
+}
 
 p {
-  color:rgba(67, 64, 64, 0.9);
+    color:rgba(67, 64, 64, 0.9);
 }
 
 h1 {
-  color: rgba(67, 64, 64, 0.9);
-  margin: 0;
+    color: rgba(67, 64, 64, 0.9);
+    margin: 0;
 }
 #header {
 }
-
-
-/* h1 {
-  color: #FFF;
-  font-family: Georgia, Garamond, 'Playfair Diplay', serif; 
-  font-size: 32px;
-  padding-top: 100px;
-  text-align: left;
-  width: 60%;
-  text-transform: uppercase; 
-  text-align: left; 
-}
-
-h2 {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  color: rgba(255, 255, 255, 0.5);
-  font-family: Georgia, Garamond, Roboto, sans-serif; 
-  word-spacing: 0.05em;
-  font-style: italic; 
-  letter-spacing: 0.02em;
-  font-weight: 100;
-  font-size: 22px;
-  line-height: 24px;
-  padding-bottom: 30px;
-  text-align: left;
-  width: 70%;
-}
-
-p {
-  color: AliceBlue;
-  font-family: Helvetica, Arial,Roboto, sans-serif; 
-  font-size: 20px;
-  font-weight: 100; 
-  line-height: 1.4em;
-  text-align: left;
-  width: 100%;
-} */
